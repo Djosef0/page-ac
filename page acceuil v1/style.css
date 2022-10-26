@@ -1,0 +1,100 @@
+/* header */
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(197, 255, 253);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 12px;
+}
+
+
+
+.header img{
+    margin-top: 17px;
+  width: 70px;
+  height: 70px;
+  border-radius: 30%;
+  cursor: pointer;
+
+  
+}
+
+ul{
+    list-style: none;    
+    margin: 15px 30px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+button{
+    border: none;
+    background-color: transparent;
+
+}
+navbar-collapse{
+    justify-content: space-around;
+    
+}
+ul li:hover{
+    font-weight: 600;
+}
+
+/* conatiner */
+
+.slide{
+background-color: rgb(220, 220, 220);
+width: 95%;
+margin:8px auto;
+height: 80vh;
+
+}
+
+.slide img{
+    width: 100%;
+    height: 80vh;
+}
+
+/* description */
+.description{
+width: 90%;
+margin:12px auto;
+display: flex;
+align-items: center;
+}
+
+.description img{
+    flex-basis: 20%;
+    margin-left: 12px;
+    border-radius: 20%;
+}
+
+.footer{
+    width: 100%;
+    margin-top: 20px;
+    height: 50vh;
+    position: relative;
+}
+
+.footer .container{
+    position: absolute;
+    top: 4%;
+    left: 8%k;
+    border-radius: 50% ;
+    height: 75px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .container img{
+    border-radius: 50%;
+    height: 75px;
+    width: 75px;
+    margin-right: 12px;
+}
